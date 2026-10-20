@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Monogram portrait with the initials JR">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2a36"/><stop offset="1" stop-color="#0c0c12"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#ff3d5a" stop-opacity=".85"/><stop offset=".35" stop-color="#ff3d5a" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".38" r=".6">
+      <stop offset="0" stop-color="#e5132b" stop-opacity=".35"/><stop offset="1" stop-color="#e5132b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="400" cy="420" rx="360" ry="420" fill="url(#glow)"/>
+  <!-- shoulders -->
+  <path d="M40 1000 C60 800 170 700 300 672 L500 672 C630 700 740 800 760 1000 Z" fill="url(#body)"/>
+  <path d="M40 1000 C60 800 170 700 300 672 L500 672 C630 700 740 800 760 1000 Z" fill="url(#rim)" opacity=".5"/>
+  <!-- neck + head -->
+  <rect x="338" y="560" width="124" height="140" rx="40" fill="#1a1a24"/>
+  <ellipse cx="400" cy="420" rx="148" ry="178" fill="url(#body)"/>
+  <ellipse cx="400" cy="420" rx="148" ry="178" fill="url(#rim)" opacity=".55"/>
+  <!-- monogram -->
+  <g fill="none" stroke="#f5f1ea" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" opacity=".95">
+    <path d="M330 800 V868 Q330 905 296 905 Q268 905 262 880"/>
+    <path d="M410 905 V792 H452 Q492 792 492 828 Q492 862 452 862 H410 M452 862 L498 905"/>
+  </g>
+</svg>
